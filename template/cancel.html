@@ -1,0 +1,18 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <link rel="stylesheet" href='/static/main.css' />
+    <meta charset="UTF-8">
+    <title>Reservation</title>
+</head>
+<body>
+    <h1>Cancellation</h1>
+    <p1>Please confirmation number:  <br></p1>
+    <form action="{{ url_for("cancel_info")}}" method="post">
+    <label for="Confirmation Number">  </label>
+        <input type="text" id="Confirmation Number" name="Confirmation_Number" placeholder="Confirmation Number">
+    <br>
+    <br>
+    <button type="submit">Enter</button>
+</body>
+</html>

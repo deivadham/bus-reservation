@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <link rel="stylesheet" href='/static/main.css' />
+    <meta charset="UTF-8">
+    <title>Reservation</title>
+</head>
+<body>
+    <h1>Reservation</h1>
+    <form action="{{ url_for("res_info")}}" method="post">
+    <p1> <br>Please enter your First Name:  <br></p1>
+    <label for="Fname">  </label>
+         <input type="text" id="Fname" name="First_Name" placeholder="First Name">
+    <br>
+    <br>
+    <p2> <br>Please enter your Last Name:  <br></p2>
+    <label for="Lname">  </label>
+         <input type="text" id="Lname" name="Last_Name" placeholder="Last Name">
+    <br>
+    <br>
+    <p3>Please enter bus route number:  <br></p3>
+    <label for="Route">  </label>
+        <input type="text" id="Route" name="Route_Number" placeholder="Route">
+    <br>
+    <br>
+    <p4>Please enter date of travel(YYYY/MM/DD):  <br></p4>
+    <label for="Date">  </label>
+        <input type="text" id="Date" name="Date" placeholder="Date">
+    <br>
+    <br>
+    <p5> <br>Please enter number of seats you would like to book:  <br></p5>
+    <label for="Seats">  </label>
+         <input type="text" id="Seats" name="Num_Seats" placeholder="Seats">
+    <br>
+    <br>
+    <form method="POST">
+       <input type="submit"/>
+     </form>
+</body>
+</html>
