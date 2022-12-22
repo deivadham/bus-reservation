@@ -1,0 +1,54 @@
+body {
+  background: 	#ccffff;
+  margin-top: 50px;
+  margin-left: 100px;
+}
+
+h1 {
+  font-family: Monaco, Courier New, monospace;
+  font-size: 2.5em;
+  color: FireBrick;
+  text-align: center
+  }
+
+p1 {
+  font-family: Monaco, Courier New, monospace;
+  font-size: 1.2em;
+  color: DarkSlateGray;
+  text-align: center
+  }
+
+p2 {
+  font-family: Monaco, Courier New, monospace;
+  font-size: 1.2em;
+  color: DarkSlateGray;
+  text-align: center
+}
+p3 {
+  font-family: Monaco, Courier New, monospace;
+  font-size: 1.2em;
+  color: DarkSlateGray;
+  text-align: center
+}
+p4 {
+  font-family: Monaco, Courier New, monospace;
+  font-size: 1.2em;
+  color: DarkSlateGray;
+  text-align: center
+}
+p5 {
+  font-family: Monaco, Courier New, monospace;
+  font-size: 1.2em;
+  color: DarkSlateGray;
+  text-align: center
+
+}
+table, th, td {
+  border:1px solid black;
+  font-family: Monaco, Courier New, monospace;
+  font-size: 1em;
+  color: DarkSlateGray;
+  text-align: center
+
+}
+<table style="width:100%">
